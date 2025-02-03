@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2 (Python 3.13.1 on win32)" generated="2025-02-03T17:56:37.697211" rpa="false" schemaversion="5">
+<suite id="s1" name="PythonProject" source="C:\Users\AravindSekar\PycharmProjects\PythonProject">
+<suite id="s1-s1" name="TestCases" source="C:\Users\AravindSekar\PycharmProjects\PythonProject\TestCases">
+<suite id="s1-s1-s1" name="Homepage" source="C:\Users\AravindSekar\PycharmProjects\PythonProject\TestCases\Homepage.robot">
+<test id="s1-s1-s1-t1" name="HomePageTest" line="5">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-02-03T17:56:38.016028" level="INFO">Opening browser 'chrome' to base url 'https://www.aveda.com/'.</msg>
+<arg>https://www.aveda.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-02-03T17:56:38.015823" elapsed="5.096383"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-02-03T17:56:43.112973" elapsed="0.119909"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2025-02-03T17:56:43.234192" level="INFO">Clicking link 'xpath:(//a[contains(@class,'signin')])[1]'.</msg>
+<arg>xpath:(//a[contains(@class,'signin')])[1]</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-03T17:56:43.233653" elapsed="3.513723"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-02-03T17:56:46.748520" level="INFO">Typing text 'Tester+1@gmail.com' into text field 'xpath:(//input[@name='EMAIL_ADDRESS'])[3]'.</msg>
+<arg>xpath:(//input[@name='EMAIL_ADDRESS'])[3]</arg>
+<arg>Tester+1@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-03T17:56:46.748182" elapsed="0.867982"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-02-03T17:56:47.617284" level="INFO">Typing text 'Tester123' into text field 'xpath:(//input[@name='PASSWORD'])[4]'.</msg>
+<arg>xpath:(//input[@name='PASSWORD'])[4]</arg>
+<arg>Tester123</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-03T17:56:47.616910" elapsed="0.849405"/>
+</kw>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2025-02-03T17:56:48.467717" level="INFO">Executing JavaScript:
+window.scrollTo(o,1000)
+Without any arguments.</msg>
+<msg time="2025-02-03T17:56:48.572723" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-15.png"&gt;&lt;img src="selenium-screenshot-15.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2025-02-03T17:56:48.572921" level="FAIL">JavascriptException: Message: javascript error: o is not defined
+  (Session info: chrome=131.0.6778.266)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7CCC180D5+2992373]
+	(No symbol) [0x00007FF7CC8ABFD0]
+	(No symbol) [0x00007FF7CC74590A]
+	(No symbol) [0x00007FF7CC74C46F]
+	(No symbol) [0x00007FF7CC74F49F]
+	(No symbol) [0x00007FF7CC7E0840]
+	(No symbol) [0x00007FF7CC7BF36A]
+	(No symbol) [0x00007FF7CC7DF584]
+	(No symbol) [0x00007FF7CC7BF113]
+	(No symbol) [0x00007FF7CC78A918]
+	(No symbol) [0x00007FF7CC78BA81]
+	GetHandleVerifier [0x00007FF7CCC76A2D+3379789]
+	GetHandleVerifier [0x00007FF7CCC8C32D+3468109]
+	GetHandleVerifier [0x00007FF7CCC80043+3418211]
+	GetHandleVerifier [0x00007FF7CCA0C78B+847787]
+	(No symbol) [0x00007FF7CC8B757F]
+	(No symbol) [0x00007FF7CC8B2FC4]
+	(No symbol) [0x00007FF7CC8B315D]
+	(No symbol) [0x00007FF7CC8A2979]
+	BaseThreadInitThunk [0x00007FFFD948259D+29]
+	RtlUserThreadStart [0x00007FFFDB74AF38+40]
+</msg>
+<arg>window.scrollTo(o,1000)</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="FAIL" start="2025-02-03T17:56:48.466918" elapsed="0.110514">JavascriptException: Message: javascript error: o is not defined
+  (Session info: chrome=131.0.6778.266)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7CCC180D5+2992373]
+	(No symbol) [0x00007FF7CC8ABFD0]
+	(No symbol) [0x00007FF7CC74590A]
+	(No symbol) [0x00007FF7CC74C46F]
+	(No symbol) [0x00007FF7CC74F49F]
+	(No symbol) [0x00007FF7CC7E0840]
+	(No symbol) [0x00007FF7CC7BF36A]
+	(No symbol) [0x00007FF7CC7DF584]
+	(No symbol) [0x00007FF7CC7BF113]
+	(No symbol) [0x00007FF7CC78A918]
+	(No symbol) [0x00007FF7CC78BA81]
+	GetHandleVerifier [0x00007FF7CCC76A2D+3379789]
+	GetHandleVerifier [0x00007FF7CCC8C32D+3468109]
+	GetHandleVerifier [0x00007FF7CCC80043+3418211]
+	GetHandleVerifier [0x00007FF7CCA0C78B+847787]
+	(No symbol) [0x00007FF7CC8B757F]
+	(No symbol) [0x00007FF7CC8B2FC4]
+	(No symbol) [0x00007FF7CC8B315D]
+	(No symbol) [0x00007FF7CC8A2979]
+	BaseThreadInitThunk [0x00007FFFD948259D+29]
+	RtlUserThreadStart [0x00007FFFDB74AF38+40]
+</status>
+</kw>
+<kw name="Scroll Element Into View" owner="SeleniumLibrary">
+<arg>xpath://h2[text()='Connect your social account']</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="NOT RUN" start="2025-02-03T17:56:48.578325" elapsed="0.000060"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2025-02-03T17:56:48.578989" elapsed="0.000048"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>xpath:(//input[@class='button'])[2]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-02-03T17:56:48.579573" elapsed="0.000040"/>
+</kw>
+<status status="FAIL" start="2025-02-03T17:56:38.014949" elapsed="10.565558">JavascriptException: Message: javascript error: o is not defined
+  (Session info: chrome=131.0.6778.266)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7CCC180D5+2992373]
+	(No symbol) [0x00007FF7CC8ABFD0]
+	(No symbol) [0x00007FF7CC74590A]
+	(No symbol) [0x00007FF7CC74C46F]
+	(No symbol) [0x00007FF7CC74F49F]
+	(No symbol) [0x00007FF7CC7E0840]
+	(No symbol) [0x00007FF7CC7BF36A]
+	(No symbol) [0x00007FF7CC7DF584]
+	(No symbol) [0x00007FF7CC7BF113]
+	(No symbol) [0x00007FF7CC78A918]
+	(No symbol) [0x00007FF7CC78BA81]
+	GetHandleVerifier [0x00007FF7CCC76A2D+3379789]
+	GetHandleVerifier [0x00007FF7CCC8C32D+3468109]
+	GetHandleVerifier [0x00007FF7CCC80043+3418211]
+	GetHandleVerifier [0x00007FF7CCA0C78B+847787]
+	(No symbol) [0x00007FF7CC8B757F]
+	(No symbol) [0x00007FF7CC8B2FC4]
+	(No symbol) [0x00007FF7CC8B315D]
+	(No symbol) [0x00007FF7CC8A2979]
+	BaseThreadInitThunk [0x00007FFFD948259D+29]
+	RtlUserThreadStart [0x00007FFFDB74AF38+40]
+</status>
+</test>
+<status status="FAIL" start="2025-02-03T17:56:37.727806" elapsed="10.854965"/>
+</suite>
+<status status="FAIL" start="2025-02-03T17:56:37.726050" elapsed="10.858545"/>
+</suite>
+<status status="FAIL" start="2025-02-03T17:56:37.701528" elapsed="10.884983"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="PythonProject" id="s1" pass="0" fail="1" skip="0">PythonProject</stat>
+<stat name="TestCases" id="s1-s1" pass="0" fail="1" skip="0">PythonProject.TestCases</stat>
+<stat name="Homepage" id="s1-s1-s1" pass="0" fail="1" skip="0">PythonProject.TestCases.Homepage</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

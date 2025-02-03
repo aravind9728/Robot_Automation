@@ -1,0 +1,27 @@
+1738568085979	geckodriver	INFO	Listening on 127.0.0.1:61020
+1738568089062	mozrunner::runner	INFO	Running command: "C:\\Users\\AravindSekar\\.cache\\selenium\\firefox\\win64\\134.0.2\\firefox.exe" "--marionette" "--remote-d ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ARAVIN~1\\AppData\\Local\\Temp\\rust_mozprofileVLTeIh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1738568091752	Marionette	INFO	Marionette enabled
+1738568092345	Marionette	INFO	Listening on port 61059
+WebDriver BiDi listening on ws://127.0.0.1:61021
+Read port: 61059
+1738568092709	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61021/devtools/browser/ac57f86e-4240-4c56-8262-3121dbb2b537
+JavaScript warning: https://www.aveda.com/lMeIMiIT/xtT/ave/MtRoTFy_tN/ucwiNQDbGLpV/fUEcPjI/Bn1kDjJ4/Thw, line 1: unreachable code after return statement
+JavaScript warning: https://www.aveda.com/lMeIMiIT/xtT/ave/MtRoTFy_tN/ucwiNQDbGLpV/fUEcPjI/Bn1kDjJ4/Thw, line 1: unreachable code after return statement
+JavaScript warning: https://www.aveda.com/lMeIMiIT/xtT/ave/MtRoTFy_tN/ucwiNQDbGLpV/fUEcPjI/Bn1kDjJ4/Thw, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.aveda.com/lMeIMiIT/xtT/ave/MtRoTFy_tN/ucwiNQDbGLpV/fUEcPjI/Bn1kDjJ4/Thw, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.aveda.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.aveda.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.aveda.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.aveda.com."
+JavaScript error: resource://gre/actors/FormHandlerChild.sys.mjs, line 103: InvalidStateError: JSWindowActorChild.document getter: Cannot access property 'document' after actor 'FormHandler' has been destroyed
+JavaScript warning: https://www.aveda.com/lMeIMiIT/xtT/ave/MtRoTFy_tN/ucwiNQDbGLpV/fUEcPjI/Bn1kDjJ4/Thw, line 1: unreachable code after return statement
+JavaScript warning: https://www.aveda.com/lMeIMiIT/xtT/ave/MtRoTFy_tN/ucwiNQDbGLpV/fUEcPjI/Bn1kDjJ4/Thw, line 1: unreachable code after return statement
+JavaScript warning: https://www.aveda.com/lMeIMiIT/xtT/ave/MtRoTFy_tN/ucwiNQDbGLpV/fUEcPjI/Bn1kDjJ4/Thw, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.aveda.com/lMeIMiIT/xtT/ave/MtRoTFy_tN/ucwiNQDbGLpV/fUEcPjI/Bn1kDjJ4/Thw, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
