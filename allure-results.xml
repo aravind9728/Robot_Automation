@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2 (Python 3.13.1 on win32)" generated="2025-02-05T16:21:56.882257" rpa="false" schemaversion="5">
+<suite id="s1" name="Homepage" source="C:\Users\AravindSekar\PycharmProjects\PythonProject\TestCases\homepage.robot">
+<test id="s1-t1" name="HomePageTest" line="10">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-02-05T16:21:57.490657" level="INFO">Opening browser 'chrome' to base url 'https://www.aveda.com/'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-02-05T16:21:57.490393" elapsed="5.149737"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-02-05T16:22:02.643363" elapsed="0.083065"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2025-02-05T16:22:02.804220" level="INFO">Page title is 'Vegan Hair Products, Shampoos, Conditioners &amp; Salons | Aveda'.</msg>
+<arg>Vegan Hair Products, Shampoos, Conditioners &amp; Salons | Aveda</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2025-02-05T16:22:02.727277" elapsed="0.077139"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2025-02-05T16:22:02.808622" level="INFO">Clicking link 'xpath:(//a[contains(@class,'signin')])[1]'.</msg>
+<arg>xpath:(//a[contains(@class,'signin')])[1]</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-05T16:22:02.807921" elapsed="3.032431"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-02-05T16:22:05.843881" level="INFO">Typing text 'Tester+1@gmail.com' into text field 'xpath:(//input[@name='EMAIL_ADDRESS'])[3]'.</msg>
+<arg>xpath:(//input[@name='EMAIL_ADDRESS'])[3]</arg>
+<arg>Tester+1@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-05T16:22:05.843304" elapsed="0.611386"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-02-05T16:22:06.458289" level="INFO">Typing text 'Tester123' into text field 'xpath:(//input[@name='PASSWORD'])[4]'.</msg>
+<arg>xpath:(//input[@name='PASSWORD'])[4]</arg>
+<arg>Tester123</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-05T16:22:06.457916" elapsed="0.930243"/>
+</kw>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2025-02-05T16:22:07.391750" level="INFO">Executing JavaScript:
+window.scrollTo(0,30)
+Without any arguments.</msg>
+<arg>window.scrollTo(0,30)</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2025-02-05T16:22:07.391154" elapsed="0.009218"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-02-05T16:22:09.404812" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-02-05T16:22:07.403665" elapsed="2.001282"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-02-05T16:22:09.407553" level="INFO">Clicking element 'xpath:(//input[@class='button'])[2]'.</msg>
+<arg>xpath:(//input[@class='button'])[2]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-02-05T16:22:09.407356" elapsed="3.619916"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-02-05T16:22:13.032279" elapsed="4.206615"/>
+</kw>
+<status status="PASS" start="2025-02-05T16:21:57.489422" elapsed="19.750067"/>
+</test>
+<status status="PASS" start="2025-02-05T16:21:56.940651" elapsed="20.301882"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Homepage" id="s1" pass="1" fail="0" skip="0">Homepage</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

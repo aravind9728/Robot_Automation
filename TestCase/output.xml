@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2 (Python 3.13.1 on win32)" generated="2025-02-14T14:42:17.026456" rpa="false" schemaversion="5">
+<suite id="s1" name="Notepad test" source="C:\Users\AravindSekar\PycharmProjects\PythonProject\TestCase\Notepad_test.robot">
+<test id="s1-t1" name="Open Notepad And Type" line="11">
+<kw name="Open Application" owner="AppiumLibrary">
+<kw name="Capture Page Screenshot" owner="AppiumLibrary">
+<msg time="2025-02-14T14:42:39.051609" level="FAIL">No application is open</msg>
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<status status="FAIL" start="2025-02-14T14:42:39.051347" elapsed="0.005318">No application is open</status>
+</kw>
+<msg time="2025-02-14T14:42:39.058269" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2025-02-14T14:42:39.058771" level="FAIL">InvalidArgumentException: Message: Illegal characters in path.
+Stacktrace:
+InvalidArgumentError: Illegal characters in path.
+    at errorFromW3CJsonCode (C:\Users\AravindSekar\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1110:25)
+    at ProxyRequestError.getActualError (C:\Users\AravindSekar\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:979:14)
+    at WADProxy.command (C:\Users\AravindSekar\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\jsonwp-proxy\proxy.js:348:19)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at condFn (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\lib\winappdriver.js:209:9)
+    at spin (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:219:20)
+    at spin (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:229:14)
+    at spin (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:229:14)
+    at spin (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:229:14)
+    at spin (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:229:14)
+    at spin (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:229:14)
+    at spin (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:229:14)
+    at spin (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:229:14)
+    at spin (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:229:14)
+    at spin (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:229:14)
+    at spin (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:229:14)
+    at spin (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:229:14)
+    at spin (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:229:14)
+    at spin (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:229:14)
+    at spin (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:229:14)
+    at waitForCondition (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:236:10)
+    at WinAppDriver._startSession (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\lib\winappdriver.js:219:7)</msg>
+<arg>${APPIUM_SERVER}</arg>
+<arg>automationName=${AUTOMATION_NAME}</arg>
+<arg>platformName=${PLATFORM_NAME}</arg>
+<arg>app=${APP}</arg>
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://appium.io/docs/en/2.1/cli/args/
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |
+| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
+<status status="FAIL" start="2025-02-14T14:42:17.205103" elapsed="21.855271">InvalidArgumentException: Message: Illegal characters in path.
+Stacktrace:
+InvalidArgumentError: Illegal characters in path.
+    at errorFromW3CJsonCode (C:\Users\AravindSekar\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1110:25)
+    at ProxyRequestError.getActualError (C:\Users\AravindSekar\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:979:14)
+    at WADProxy.command (C:\Users\AravindSekar\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\jsonwp-proxy\proxy.js:348:19)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at condFn (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\lib\winappdriver.js:209:9)
+    at spin (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:219:20)
+    at spin (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:229:14)
+    at spin (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:229:14)
+    at spin (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driv...
+    [ Message content over the limit has been removed. ]
+    at spin (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:229:14)
+    at spin (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:229:14)
+    at spin (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:229:14)
+    at spin (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:229:14)
+    at spin (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:229:14)
+    at spin (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:229:14)
+    at spin (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:229:14)
+    at spin (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:229:14)
+    at waitForCondition (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:236:10)
+    at WinAppDriver._startSession (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\lib\winappdriver.js:219:7)</status>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2025-02-14T14:42:39.060693" elapsed="0.000030"/>
+</kw>
+<kw name="Input Text" owner="AppiumLibrary">
+<arg>None</arg>
+<arg>Automated Notepad Test</arg>
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<status status="NOT RUN" start="2025-02-14T14:42:39.061041" elapsed="0.000024"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2025-02-14T14:42:39.061419" elapsed="0.000040"/>
+</kw>
+<kw name="Close Application" owner="AppiumLibrary">
+<doc>Closes the current application and also close webdriver session.</doc>
+<status status="NOT RUN" start="2025-02-14T14:42:39.061687" elapsed="0.000023"/>
+</kw>
+<doc>Open Notepad using its Window Handle and type text</doc>
+<status status="FAIL" start="2025-02-14T14:42:17.204273" elapsed="21.857715">InvalidArgumentException: Message: Illegal characters in path.
+Stacktrace:
+InvalidArgumentError: Illegal characters in path.
+    at errorFromW3CJsonCode (C:\Users\AravindSekar\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:1110:25)
+    at ProxyRequestError.getActualError (C:\Users\AravindSekar\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\protocol\errors.js:979:14)
+    at WADProxy.command (C:\Users\AravindSekar\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\jsonwp-proxy\proxy.js:348:19)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at condFn (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\lib\winappdriver.js:209:9)
+    at spin (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:219:20)
+    at spin (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:229:14)
+    at spin (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:229:14)
+    at spin (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driv...
+    [ Message content over the limit has been removed. ]
+    at spin (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:229:14)
+    at spin (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:229:14)
+    at spin (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:229:14)
+    at spin (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:229:14)
+    at spin (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:229:14)
+    at spin (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:229:14)
+    at spin (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:229:14)
+    at spin (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:229:14)
+    at waitForCondition (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:236:10)
+    at WinAppDriver._startSession (C:\Users\AravindSekar\.appium\node_modules\appium-windows-driver\lib\winappdriver.js:219:7)</status>
+</test>
+<status status="FAIL" start="2025-02-14T14:42:17.028358" elapsed="22.035466"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Notepad test" id="s1" pass="0" fail="1" skip="0">Notepad test</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-02-14T14:42:39.058269" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+</errors>
+</robot>
